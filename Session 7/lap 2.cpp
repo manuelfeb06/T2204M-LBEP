@@ -25,4 +25,6 @@ int timSNTMin(int n, int arr[]){
 	}
 }
 int main(){
+	int arr[6]={1,6,2,13,17,23};
+	printf("SNT nho nhat lon hon moi gia tri co trong mang la :  %d",timSNTMin(6,arr));
 }

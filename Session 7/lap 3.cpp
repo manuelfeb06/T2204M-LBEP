@@ -25,4 +25,6 @@ int UCLN(int n, int arr[]){
 	}
 }
 int main(){
+	int arr[10]={2,6,12,32,8,10,14,22,16,18};
+	printf("UCLN cua tat ca cac phan tu trong mang la :  %d",UCLN(10,arr));
 }
